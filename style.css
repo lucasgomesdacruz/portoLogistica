@@ -39,7 +39,7 @@ header ul li a:hover, header ul a a:hover {
   letter-spacing: 0.001em;
 }
 
-.container-backround-image {
+.container-background-image {
   display: flex;
   justify-content: center;
   height: 85vh;
@@ -50,21 +50,21 @@ header ul li a:hover, header ul a a:hover {
   background-position: center;
   background-size: 100%;
 }
-.container-backround-image article {
+.container-background-image article {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 80vw;
 }
-.container-backround-image article h1 {
+.container-background-image article h1 {
   font-weight: 700;
   font-size: 6rem;
 }
-.container-backround-image article h2 {
+.container-background-image article h2 {
   font-weight: 300;
   font-size: 2rem;
 }
-.container-backround-image article button {
+.container-background-image article button {
   background-color: #007bdf;
   width: 10vw;
   color: #ffffff;
