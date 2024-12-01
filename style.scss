@@ -191,6 +191,7 @@ header {
                 justify-content: space-evenly;
                 width: 15vw;
                 height: 25vh;
+                // outline: 1px solid lawngreen;
 
                 h4 {
                     font-weight: 500;
@@ -206,6 +207,59 @@ header {
     }
 }
 
+.container-contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    font-family: "Oswald", sans-serif;
+
+    outline: 1px solid green;
+
+    .container-atendimento {
+        // width: 70vw;
+        height: 70vh;
+        h2 {
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+
+
+        outline: 1px solid blue;
+        background-color: #b31111;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            width: 30vw;
+
+
+            margin: 10px;
+            outline: 1px solid gold;
+        }
+    }
+
+    .container-fale-conosco {
+        // width: 30vw;
+        height: 70vh;
+
+        outline: 1px solid rebeccapurple;
+        background-color: #007bdf;
+
+        form {
+            
+            fieldset {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
 
 
 

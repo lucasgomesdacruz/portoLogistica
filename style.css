@@ -171,4 +171,42 @@ header ul li a:hover, header ul a a:hover {
 .container-solucoes-portuaria .container-list figure figcaption p {
   font-weight: 200;
   font-size: 1.5rem;
+}
+
+.container-contato {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  outline: 1px solid green;
+}
+.container-contato .container-atendimento {
+  height: 70vh;
+  outline: 1px solid blue;
+  background-color: #b31111;
+}
+.container-contato .container-atendimento h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.container-contato .container-atendimento h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.container-contato .container-atendimento ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+  margin: 10px;
+  outline: 1px solid gold;
+}
+.container-contato .container-fale-conosco {
+  height: 70vh;
+  outline: 1px solid rebeccapurple;
+  background-color: #007bdf;
+}
+.container-contato .container-fale-conosco form fieldset {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
