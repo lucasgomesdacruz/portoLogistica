@@ -179,32 +179,52 @@ header ul li a:hover, header ul a a:hover {
   justify-content: space-around;
   height: 100vh;
   font-family: "Oswald", sans-serif;
-  outline: 1px solid green;
+  text-transform: uppercase;
 }
 .container-contato .container-atendimento {
   height: 70vh;
-  outline: 1px solid blue;
-  background-color: #b31111;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.container-contato .container-atendimento h2 {
+.container-contato .container-atendimento div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.container-contato .container-atendimento div h2 {
   font-weight: 500;
   font-size: 2rem;
+  color: #007bdf;
 }
-.container-contato .container-atendimento h3 {
+.container-contato .container-atendimento div h3 {
   font-weight: 500;
   font-size: 1.5rem;
 }
 .container-contato .container-atendimento ul {
   display: flex;
+  gap: 2rem;
   flex-wrap: wrap;
-  width: 30vw;
-  margin: 10px;
-  outline: 1px solid gold;
+  width: 100%;
 }
 .container-contato .container-fale-conosco {
   height: 70vh;
   outline: 1px solid rebeccapurple;
-  background-color: #007bdf;
+}
+.container-contato .container-fale-conosco div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.container-contato .container-fale-conosco div legend {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #007bdf;
+}
+.container-contato .container-fale-conosco div h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 .container-contato .container-fale-conosco form fieldset {
   display: flex;

@@ -8,7 +8,6 @@
 }
 
 header {
-    // outline: 1px solid rebeccapurple;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,7 +44,6 @@ header {
     }
 }
 
-//Hero
 .container-background-image {
     display: flex;
     justify-content: center;
@@ -56,9 +54,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    //ajuste de responsividade futuramente
     
-
     article {
         display: flex;
         flex-direction: column;
@@ -139,7 +135,6 @@ header {
 }
 
 .container-solucoes-portuaria {
-    // width: 90vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -165,21 +160,16 @@ header {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        // outline: 1px solid red;
-
+       
         figure {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
             width: 20vw;
-            // height: 50vh;
             min-width: 10vw;
             background-color: #ffffff;
             box-shadow: 0px 4px 10px 0px #00000696;
-
-            // outline: 1px solid rebeccapurple;
-            // margin: 10px;
 
             img {
                 width: 20vw;
@@ -191,7 +181,6 @@ header {
                 justify-content: space-evenly;
                 width: 15vw;
                 height: 25vh;
-                // outline: 1px solid lawngreen;
 
                 h4 {
                     font-weight: 500;
@@ -213,34 +202,40 @@ header {
     justify-content: space-around;
     height: 100vh;
     font-family: "Oswald", sans-serif;
+    text-transform: uppercase; 
 
-    outline: 1px solid green;
 
     .container-atendimento {
-        // width: 70vw;
         height: 70vh;
-        h2 {
-            font-weight: 500;
-            font-size: 2rem;
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+
+            h2 {
+                font-weight: 500;
+                font-size: 2rem;
+                color: #007bdf;
+                
+            }
+    
+            h3 {
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
         }
-
-        h3 {
-            font-weight: 500;
-            font-size: 1.5rem;
-        }
-
-
-        outline: 1px solid blue;
-        background-color: #b31111;
-
+        
         ul {
             display: flex;
+            gap: 2rem;
             flex-wrap: wrap;
-            width: 30vw;
-
-
-            margin: 10px;
-            outline: 1px solid gold;
+            width: 100%;
         }
     }
 
@@ -249,7 +244,24 @@ header {
         height: 70vh;
 
         outline: 1px solid rebeccapurple;
-        background-color: #007bdf;
+        // background-color: #007bdf;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+
+            legend {
+                font-weight: 500;
+                font-size: 2rem;
+                color: #007bdf;
+            }
+
+            h3 {
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+        }
 
         form {
             
