@@ -236,6 +236,11 @@ header {
             gap: 2rem;
             flex-wrap: wrap;
             width: 100%;
+
+            li > figure > figcaption {
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
         }
     }
 

@@ -208,6 +208,10 @@ header ul li a:hover, header ul a a:hover {
   flex-wrap: wrap;
   width: 100%;
 }
+.container-contato .container-atendimento ul li > figure > figcaption {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 .container-contato .container-fale-conosco {
   height: 70vh;
   outline: 1px solid rebeccapurple;
