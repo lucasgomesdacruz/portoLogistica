@@ -278,6 +278,22 @@ header {
     }
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    background-color: #D8D8D8;
+    height:  6.7vh;
+    
+    p, a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #001C43;
+        font-size: 0.87rem;
+    }
+}
+
 
 
 
