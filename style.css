@@ -214,6 +214,7 @@ header ul li a:hover, header ul a a:hover {
 }
 .container-contato .container-fale-conosco {
   height: 70vh;
+  font-family: "Oswald", sans-serif;
   outline: 1px solid rebeccapurple;
 }
 .container-contato .container-fale-conosco div {
@@ -230,9 +231,39 @@ header ul li a:hover, header ul a a:hover {
   font-weight: 500;
   font-size: 1.5rem;
 }
+.container-contato .container-fale-conosco form {
+  height: 60vh;
+}
 .container-contato .container-fale-conosco form fieldset {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  outline: 5px solid red;
+  height: 100%;
+}
+.container-contato .container-fale-conosco form fieldset label {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+.container-contato .container-fale-conosco form fieldset input {
+  height: 5.19vh;
+}
+.container-contato .container-fale-conosco form fieldset textarea {
+  height: 11.53vh;
+}
+.container-contato .container-fale-conosco form fieldset button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.19vh;
+  padding: 20px;
+  background-color: #0017E9;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
 }
 
 footer {
