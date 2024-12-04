@@ -204,7 +204,6 @@ header {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase; 
 
-
     .container-atendimento {
         height: 70vh;
         width: 35vw;
@@ -212,7 +211,7 @@ header {
         flex-direction: column;
         justify-content: space-around;
         
-
+        outline: 3px solid red;
         div {
             display: flex;
             flex-direction: column;
@@ -245,15 +244,20 @@ header {
     }
 
     .container-fale-conosco {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         // width: 30vw;
-        height: 70vh;
+        height: 65vh;
         font-family: "Oswald", sans-serif;
-        outline: 1px solid rebeccapurple;
+        // outline: 1px solid rebeccapurple;
         // background-color: #007bdf;
 
+        outline: 3px solid red;
+
         div {
-            display: flex;
-            flex-direction: column;
+            // display: flex;
+            // flex-direction: column;
             gap: 0.9rem;
 
             legend {
@@ -269,43 +273,64 @@ header {
         }
 
         form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
             height: 60vh;
+            width: 20.75rem;
 
             fieldset {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
-                outline: 5px solid red;
-                height: 100%;
+                border: none;
+                // justify-content: space-evenly;
+                // outline: 5px solid red;
+                // height: 100%;
+                // width: 20.75rem;
 
-                label {
-                    font-weight: 300;
-                    font-size: 1.25rem;
-                }
-
-                input {
-                    height: 5.19vh;
-                }
-
-                textarea {
-                    height: 11.53vh;
-                }
-
-                button {
+                ul {
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 5.19vh;
-                    padding: 20px;
-                    background-color: #0017E9;
-                    font-size: 1.5rem;
-                    font-weight: 500;
-                    cursor: pointer;
-                    color: #ffffff;
-                    text-transform: uppercase;
-                    border: none;
-                }
+                    flex-direction: column;
+                    gap: 1.25rem;
+
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        
+                        
+                        label {
+                            font-weight: 300;
+                            font-size: 1.25rem;
+                        }
+    
+                        input {
+                            height: 5.19vh;
+                            width: 20.75rem;
+                        }
+    
+                        textarea {
+                            height: 11.53vh;
+                        }
+                    }
+                }                 
             }
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 5.19vh;
+                padding: 20px;
+                background-color: #0017E9;
+                font-size: 1.5rem;
+                font-weight: 500;
+                cursor: pointer;
+                color: #ffffff;
+                text-transform: uppercase;
+                border: none;
+                width: 20.75rem;
+            }
+
         }
     }
 }
