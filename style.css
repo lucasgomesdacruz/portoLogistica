@@ -41,6 +41,19 @@ header ul li a:hover, header ul a a:hover {
   letter-spacing: 0.001em;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  header {
+    height: 30vh;
+  }
+  header h2 {
+    display: none;
+  }
+  header ul {
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
 .container-background-image {
   display: flex;
   justify-content: center;
@@ -83,6 +96,24 @@ header ul li a:hover, header ul a a:hover {
   background-color: #0012b6;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .container-background-image {
+    height: 40vh;
+  }
+  .container-background-image article {
+    align-items: center;
+  }
+  .container-background-image article h1 {
+    font-size: 2.25rem;
+  }
+  .container-background-image article h2 {
+    font-size: 1rem;
+  }
+  .container-background-image article button {
+    font-size: 1rem;
+    width: 40vw;
+  }
+}
 .container-gestao-portuaria {
   display: flex;
   justify-content: space-around;
