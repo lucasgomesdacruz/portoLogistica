@@ -67,7 +67,7 @@ header ul li a:hover, header ul a a:hover {
   font-size: 2rem;
 }
 .container-background-image article button {
-  background-color: #007bdf;
+  background-color: #0016DF;
   width: 10vw;
   color: #ffffff;
   border-radius: 5px;
@@ -77,6 +77,10 @@ header ul li a:hover, header ul a a:hover {
   font-size: 1.5rem;
   cursor: pointer;
   margin-top: 20px;
+  transition: all 300ms ease-in-out;
+}
+.container-background-image article button:hover {
+  background-color: #0012b6;
 }
 
 .container-gestao-portuaria {
@@ -96,7 +100,7 @@ header ul li a:hover, header ul a a:hover {
 .container-gestao-portuaria article h2 {
   font-weight: 500;
   font-size: 1.5rem;
-  color: #007bdf;
+  color: #0017E9;
   font-family: "Oswald", sans-serif;
 }
 .container-gestao-portuaria article h3 {
@@ -112,7 +116,7 @@ header ul li a:hover, header ul a a:hover {
 .container-gestao-portuaria article p {
   font-weight: 400;
   font-size: 1.5rem;
-  color: #007bdf;
+  color: #0017E9;
   cursor: pointer;
 }
 .container-gestao-portuaria img {
@@ -134,7 +138,7 @@ header ul li a:hover, header ul a a:hover {
 .container-solucoes-portuaria h2 {
   font-weight: 500;
   font-size: 1.5rem;
-  color: #007bdf;
+  color: #0017E9;
 }
 .container-solucoes-portuaria h3 {
   font-weight: 500;
@@ -199,7 +203,7 @@ header ul li a:hover, header ul a a:hover {
 .container-contato .container-atendimento div h2 {
   font-weight: 500;
   font-size: 2rem;
-  color: #007bdf;
+  color: #0017E9;
 }
 .container-contato .container-atendimento div h3 {
   font-weight: 500;
@@ -234,7 +238,7 @@ header ul li a:hover, header ul a a:hover {
 .container-contato .container-fale-conosco div legend {
   font-weight: 500;
   font-size: 2rem;
-  color: #007bdf;
+  color: #0017E9;
 }
 .container-contato .container-fale-conosco div h3 {
   font-weight: 500;

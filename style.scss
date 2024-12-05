@@ -75,7 +75,7 @@ header {
         }
 
         button {
-            background-color: #007bdf;
+            background-color: #0016DF;
             width: 10vw;
             color: #ffffff;
             border-radius: 5px;
@@ -85,6 +85,11 @@ header {
             font-size: 1.5rem;
             cursor: pointer;
             margin-top: 20px;
+            transition: all 300ms ease-in-out;
+        }
+
+        button:hover {
+            background-color: #0012b6;
         }
     }
 }
@@ -106,7 +111,7 @@ header {
         h2 {
             font-weight: 500;
             font-size: 1.5rem;
-            color: #007bdf;
+            color: #0017E9;
             font-family: "Oswald", sans-serif;
         }
 
@@ -125,7 +130,7 @@ header {
         p {
             font-weight: 400;
             font-size: 1.5rem;
-            color: #007bdf;
+            color: #0017E9;
             cursor: pointer;
         }
     }
@@ -149,7 +154,7 @@ header {
     h2 {
         font-weight: 500;
         font-size: 1.5rem;
-        color: #007bdf;
+        color: #0017E9;
     }
 
     h3 {
@@ -222,7 +227,7 @@ header {
             h2 {
                 font-weight: 500;
                 font-size: 2rem;
-                color: #007bdf;
+                color: #0017E9;
                 
             }
     
@@ -266,7 +271,7 @@ header {
             legend {
                 font-weight: 500;
                 font-size: 2rem;
-                color: #007bdf;
+                color: #0017E9;
             }
 
             h3 {
