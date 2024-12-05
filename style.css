@@ -151,12 +151,40 @@ header ul li a:hover, header ul a a:hover {
   cursor: pointer;
 }
 .container-gestao-portuaria img {
-  max-width: 70vw;
+  width: 30vw;
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .container-gestao-portuaria {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90vh;
+  }
+  .container-gestao-portuaria article {
+    height: 40vh;
+    justify-content: space-evenly;
+    width: 90vw;
+  }
+  .container-gestao-portuaria article h2 {
+    font-size: 1rem;
+  }
+  .container-gestao-portuaria article h3 {
+    font-size: 1.5rem;
+  }
+  .container-gestao-portuaria article p:nth-of-type(1) {
+    font-size: 0.87rem;
+  }
+  .container-gestao-portuaria article p {
+    font-size: 1.25rem;
+  }
+  .container-gestao-portuaria img {
+    width: 90vw;
+    height: 40vh;
+  }
+}
 .container-solucoes-portuaria {
   display: flex;
   align-items: center;
