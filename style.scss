@@ -285,6 +285,41 @@ header {
     }
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+    .container-solucoes-portuaria {
+        height: 160vh;
+        justify-content: center;
+        
+        .container-list {
+            height: 140vh;
+            flex-direction: column;
+           
+            figure {
+                width: 60vw;
+                min-width: 10vw;
+                height: 40vh;
+
+                img {
+                    width: 60vw;
+                }
+    
+                figcaption {
+                    width: 50vw;
+
+                    h4 {
+                        font-size: 0.87rem;
+                    }
+    
+                    p {
+                        height: 50%;
+                        font-size: 0.77rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .container-contato {
     display: flex;
     align-items: center;

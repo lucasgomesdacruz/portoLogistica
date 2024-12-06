@@ -244,6 +244,34 @@ header ul li a:hover, header ul a a:hover {
   height: 70%;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .container-solucoes-portuaria {
+    height: 160vh;
+    justify-content: center;
+  }
+  .container-solucoes-portuaria .container-list {
+    height: 140vh;
+    flex-direction: column;
+  }
+  .container-solucoes-portuaria .container-list figure {
+    width: 60vw;
+    min-width: 10vw;
+    height: 40vh;
+  }
+  .container-solucoes-portuaria .container-list figure img {
+    width: 60vw;
+  }
+  .container-solucoes-portuaria .container-list figure figcaption {
+    width: 50vw;
+  }
+  .container-solucoes-portuaria .container-list figure figcaption h4 {
+    font-size: 0.87rem;
+  }
+  .container-solucoes-portuaria .container-list figure figcaption p {
+    height: 50%;
+    font-size: 0.77rem;
+  }
+}
 .container-contato {
   display: flex;
   align-items: center;
