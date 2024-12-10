@@ -341,7 +341,7 @@ header ul li a:hover, header ul a a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   height: 65vh;
-  width: 20.75rem;
+  width: 20vw;
 }
 .container-contato .container-fale-conosco form fieldset {
   display: flex;
@@ -362,11 +362,16 @@ header ul li a:hover, header ul a a:hover {
   font-size: 1.25rem;
 }
 .container-contato .container-fale-conosco form fieldset ul li input {
+  width: 17vw;
   height: 5.19vh;
-  width: 20.75rem;
+  border: 2px solid #000000;
+  padding: 10px 15px;
 }
 .container-contato .container-fale-conosco form fieldset ul li textarea {
+  width: 17vw;
   height: 11.53vh;
+  border: 2px solid #000000;
+  padding: 10px 15px;
 }
 .container-contato .container-fale-conosco form button {
   display: flex;
@@ -389,6 +394,74 @@ header ul li a:hover, header ul a a:hover {
   background-color: #0012b6;
 }
 
+@media (min-width: 200px) and (max-width: 500px) {
+  .container-contato {
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .container-contato .container-atendimento {
+    gap: 2rem;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  .container-contato .container-atendimento div h2 {
+    font-size: 1.25rem;
+  }
+  .container-contato .container-atendimento div h3 {
+    font-size: 0.93rem;
+  }
+  .container-contato .container-atendimento ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-contato .container-atendimento ul li > figure > img {
+    width: 40vw;
+  }
+  .container-contato .container-atendimento ul li > figure > figcaption {
+    font-size: 0.68rem;
+  }
+  .container-contato .container-fale-conosco {
+    align-items: center;
+    height: 100%;
+    margin: 20px 0px;
+  }
+  .container-contato .container-fale-conosco div {
+    text-align: center;
+  }
+  .container-contato .container-fale-conosco div legend {
+    font-size: 1.25rem;
+  }
+  .container-contato .container-fale-conosco div h3 {
+    font-size: 0.93rem;
+  }
+  .container-contato .container-fale-conosco form {
+    width: 80vw;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .container-contato .container-fale-conosco form fieldset ul li {
+    gap: 0.4rem;
+  }
+  .container-contato .container-fale-conosco form fieldset ul li label {
+    font-size: 0.81rem;
+  }
+  .container-contato .container-fale-conosco form fieldset ul li input {
+    height: 5.19vh;
+    width: 60vw;
+  }
+  .container-contato .container-fale-conosco form fieldset ul li textarea {
+    height: 11.53vh;
+    width: 60vw;
+  }
+  .container-contato .container-fale-conosco form button {
+    font-size: 0.81rem;
+    width: 60vw;
+  }
+}
 footer {
   display: flex;
   justify-content: center;
@@ -402,4 +475,10 @@ footer p, footer a {
   font-weight: 700;
   color: #001C43;
   font-size: 0.87rem;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  footer p, footer a {
+    font-size: 0.68rem;
+  }
 }/*# sourceMappingURL=style.css.map */
