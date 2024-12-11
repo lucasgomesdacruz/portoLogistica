@@ -111,6 +111,19 @@ header {
     }
 }
 
+@media (min-width: 501px) and (max-width: 1280px) {
+    
+    .container-background-image {
+        
+        article {
+
+            button {
+                width: 20vw;
+            }
+        }
+    }
+}
+
 @media (min-width: 200px) and (max-width: 500px) {
     
     .container-background-image {
@@ -183,6 +196,22 @@ header {
     }
 }
 
+@media (min-width: 501px) and (max-width: 1280px) { 
+    .container-gestao-portuaria {
+
+        article {
+            height: 70vh;
+            width: 40vw;
+        }
+    
+        img {
+            width: 40vw;  
+            height: 80vh;   
+            object-fit: cover;
+        }
+    }
+}
+
 @media (min-width: 200px) and (max-width: 500px) {
     .container-gestao-portuaria {
         justify-content: space-around;
@@ -217,6 +246,7 @@ header {
         }
     }  
 }
+
 
 .container-solucoes-portuaria {
     display: flex;
@@ -285,6 +315,21 @@ header {
     }
 }
 
+@media (min-width: 501px) and (max-width: 1280px) {
+    .container-solucoes-portuaria {
+      
+        .container-list {
+           
+            figure {
+                
+                figcaption {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 200px) and (max-width: 500px) {
     .container-solucoes-portuaria {
         height: 160vh;
@@ -344,7 +389,6 @@ header {
                 font-weight: 500;
                 font-size: 2rem;
                 color: #0017E9;
-                
             }
     
             h3 {
@@ -452,16 +496,53 @@ header {
                 color: #ffffff;
                 text-transform: uppercase;
                 border: none;
-                width: 20.75rem;
+                width: 17vw;
                 font-family: "Oswald", sans-serif; 
                 transition: all 300ms ease-in-out;
             }
 
             button:hover {
                 background-color: #0012b6;
-
             }
+        }
+    }
+}
 
+@media (min-width: 1200px) and (max-width: 1680px) {
+    .container-contato {
+        
+        .container-atendimento {
+            width: 50vw;
+        }
+    
+        .container-fale-conosco {
+            form {
+                width: 20vw;
+              
+                fieldset {
+    
+                    ul {
+                        li {
+                            
+                            input {
+                                width: 20vw;
+                            }
+        
+                            textarea {
+                                width: 20vw;
+                            }
+                        }
+                    }                 
+                }
+    
+                button {
+                    width: 20vw;
+                }
+    
+                button:hover {
+                    background-color: #0012b6;
+                }
+            }
         }
     }
 }
