@@ -4,13 +4,15 @@
 # 📷 Preview
 ### Abaixo está uma captura de tela da interface do projeto:
 ![Porto-Logística-12-10-2024_03_01_PM](https://github.com/user-attachments/assets/cf531829-e9e0-4672-a9a5-4c3a35b0c3ba)
+![iPhone-14-Plus-portologistica vercel app](https://github.com/user-attachments/assets/30f41a3c-9983-4a02-9323-5f83f4e0309a)
+
 
 
 # 🛠️ Tecnologias Utilizadas
-# Neste projeto, utilizei as seguintes tecnologias:
-
-### HTML5: Para estruturar o conteúdo da página.
-### Sass (CSS pré-processado): Para estilização e aplicação de design responsivo de forma eficiente.
+## Neste projeto, utilizei as seguintes tecnologias:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) 
+#### HTML5: Para estruturar o conteúdo da página.
+#### Sass (CSS pré-processado): Para estilização e aplicação de design responsivo de forma eficiente.
 
 # 📑 Funcionalidades
 ### A página apresenta:
