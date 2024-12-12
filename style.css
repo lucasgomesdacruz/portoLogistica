@@ -144,16 +144,17 @@ header ul li a:hover, header ul a a:hover {
   font-weight: 800;
   font-size: 2rem;
 }
-.container-gestao-portuaria article p:nth-of-type(1) {
+.container-gestao-portuaria article p {
   font-weight: 400;
   font-size: 1.5rem;
   color: #000000;
 }
-.container-gestao-portuaria article p {
+.container-gestao-portuaria article a {
   font-weight: 400;
   font-size: 1.5rem;
   color: #0017E9;
   cursor: pointer;
+  text-decoration: none;
 }
 .container-gestao-portuaria img {
   width: 30vw;
@@ -178,10 +179,10 @@ header ul li a:hover, header ul a a:hover {
   .container-gestao-portuaria {
     justify-content: space-around;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
   }
   .container-gestao-portuaria article {
-    height: 40vh;
+    height: 50vh;
     justify-content: space-evenly;
     width: 90vw;
   }
@@ -191,15 +192,16 @@ header ul li a:hover, header ul a a:hover {
   .container-gestao-portuaria article h3 {
     font-size: 1.5rem;
   }
-  .container-gestao-portuaria article p:nth-of-type(1) {
+  .container-gestao-portuaria article p {
     font-size: 0.87rem;
   }
-  .container-gestao-portuaria article p {
+  .container-gestao-portuaria article a {
     font-size: 1.25rem;
   }
   .container-gestao-portuaria img {
     width: 90vw;
     height: 40vh;
+    margin-bottom: 1.25rem;
   }
 }
 .container-solucoes-portuaria {

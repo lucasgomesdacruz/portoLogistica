@@ -175,17 +175,18 @@ header {
             font-size: 2rem;
         }
 
-        p:nth-of-type(1) {
+        p {
             font-weight: 400;
             font-size: 1.5rem;
             color: #000000;
         }
 
-        p {
+        a {
             font-weight: 400;
             font-size: 1.5rem;
             color: #0017E9;
             cursor: pointer;
+            text-decoration: none;
         }
     }
 
@@ -216,10 +217,10 @@ header {
     .container-gestao-portuaria {
         justify-content: space-around;
         flex-direction: column;
-        height: 90vh;
+        height: 100vh;
         
         article {
-            height: 40vh;
+            height: 50vh;
             justify-content: space-evenly;
             width: 90vw;
 
@@ -231,18 +232,19 @@ header {
                 font-size: 1.5rem;
             }
     
-            p:nth-of-type(1) {
+            p {
                 font-size: 0.87rem;
             }
     
-            p {
+            a {
                 font-size: 1.25rem;
             }
         }
     
         img {
             width: 90vw;  
-            height: 40vh;   
+            height: 40vh;  
+            margin-bottom: 1.25rem; 
         }
     }  
 }
