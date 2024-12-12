@@ -96,12 +96,12 @@ header {
             width: 10vw;
             color: #ffffff;
             border-radius: 5px;
-            padding: 10px;
+            padding: 0.62rem;
             border: none;
             font-weight: 700;
             font-size: 1.5rem;
             cursor: pointer;
-            margin-top: 20px;
+            margin-top: 1.25rem;
             transition: all 300ms ease-in-out;
         }
 
@@ -411,7 +411,6 @@ header {
             li > figure > figcaption {
                 font-weight: 500;
                 font-size: 1.5rem;
-                
             }
         }
     }
@@ -488,7 +487,7 @@ header {
                 justify-content: center;
                 align-items: center;
                 height: 5.19vh;
-                padding: 20px;
+                padding: 1.25rem;
                 background-color: #0017E9;
                 font-size: 1.5rem;
                 font-weight: 500;
@@ -560,7 +559,7 @@ header {
             width: 90vw;
             height: 100%;
             justify-content: center;
-            margin: 20px 0px;
+            margin: 1.25rem 0rem;
             
             div {
                 
@@ -590,7 +589,7 @@ header {
         .container-fale-conosco {
             align-items: center;
             height: 100%;
-            margin: 20px 0px;
+            margin: 1.25rem 0rem;
 
             div {
                 text-align: center;
@@ -667,7 +666,3 @@ footer {
         }
     }
 }
-
-
-
-

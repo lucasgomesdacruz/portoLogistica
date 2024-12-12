@@ -84,12 +84,12 @@ header ul li a:hover, header ul a a:hover {
   width: 10vw;
   color: #ffffff;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.62rem;
   border: none;
   font-weight: 700;
   font-size: 1.5rem;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   transition: all 300ms ease-in-out;
 }
 .container-background-image article button:hover {
@@ -400,7 +400,7 @@ header ul li a:hover, header ul a a:hover {
   justify-content: center;
   align-items: center;
   height: 5.19vh;
-  padding: 20px;
+  padding: 1.25rem;
   background-color: #0017E9;
   font-size: 1.5rem;
   font-weight: 500;
@@ -448,7 +448,7 @@ header ul li a:hover, header ul a a:hover {
     width: 90vw;
     height: 100%;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 1.25rem 0rem;
   }
   .container-contato .container-atendimento div h2 {
     font-size: 1.25rem;
@@ -469,7 +469,7 @@ header ul li a:hover, header ul a a:hover {
   .container-contato .container-fale-conosco {
     align-items: center;
     height: 100%;
-    margin: 20px 0px;
+    margin: 1.25rem 0rem;
   }
   .container-contato .container-fale-conosco div {
     text-align: center;
