@@ -4,6 +4,7 @@
 # 📷 Preview
 ### Abaixo está uma captura de tela da interface do projeto:
 ![Porto-Logística-12-10-2024_03_01_PM](https://github.com/user-attachments/assets/cf531829-e9e0-4672-a9a5-4c3a35b0c3ba)
+![Galaxy-Fold2-127 0 0 1](https://github.com/user-attachments/assets/48b77a90-cb72-408e-8876-20864e5f7bec)
 ![iPhone-14-Plus-portologistica vercel app](https://github.com/user-attachments/assets/30f41a3c-9983-4a02-9323-5f83f4e0309a)
 
 
